@@ -12,7 +12,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Right_GUI {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <19 20>;
+        };
+
+        Left_GUI {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <16 15>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
