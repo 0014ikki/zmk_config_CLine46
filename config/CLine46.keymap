@@ -87,10 +87,10 @@
 
         CONTROL {
             bindings = <
-&trans       &trans  &trans  &trans  &trans  &trans                    &kp LG(C)       &trans          &trans  &trans           &kp LG(V)  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT_ARROW  &trans     &trans
-&bootloader  &trans  &trans  &trans  &trans  &trans                    &trans          &trans          &trans  &trans           &trans     &bootloader
-             &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                  &trans           &trans
+&trans       &trans  &trans  &trans  &trans  &trans                    &kp LG(LEFT)    &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp RG(RIGHT)    &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP        &kp RIGHT_ARROW  &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans                    &trans          &trans            &trans        &trans           &trans  &bootloader
+             &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                          &trans           &trans
             >;
         };
 
